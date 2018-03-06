@@ -1,0 +1,5 @@
+package com.artisan.domain;
+
+public class Product {
+
+}

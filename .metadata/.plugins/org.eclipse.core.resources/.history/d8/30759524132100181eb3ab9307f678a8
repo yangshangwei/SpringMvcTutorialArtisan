@@ -1,0 +1,11 @@
+package com.artisan.domain;
+
+import java.io.Serializable;
+
+public class Login implements Serializable {
+
+	private static final long serialVersionUID = 7012962303992879432L;
+	
+	private String userName;
+	private String password;
+}

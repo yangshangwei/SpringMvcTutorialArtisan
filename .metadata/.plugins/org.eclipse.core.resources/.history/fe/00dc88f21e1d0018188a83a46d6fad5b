@@ -1,0 +1,6 @@
+label.productName=产品名称
+label.description=描述
+label.price=价格
+button.reset=重置
+button.submit=Ajouter Produit
+form.name=Formulaire de Produit

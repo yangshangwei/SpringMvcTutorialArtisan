@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="273" key="DIALOG_WIDTH"/>
+		<item value="134" key="DIALOG_Y_ORIGIN"/>
+		<item value="1013" key="DIALOG_X_ORIGIN"/>
+		<item value="376" key="DIALOG_HEIGHT"/>
+		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="file_upload" key="selection"/>
+		<list key="findhistory">
+			<item value="file_upload"/>
+			<item value="chapter11b"/>
+			<item value="chapter11a"/>
+			<item value="fileNames"/>
+			<item value="product_input"/>
+			<item value="chapter10b"/>
+			<item value="label.description"/>
+			<item value="chapter07b"/>
+		</list>
+		<list key="replacehistory">
+			<item value="chapter11c"/>
+			<item value="chapter11b"/>
+			<item value="chapter11a"/>
+			<item value="chapter10a"/>
+			<item value="chapter07a"/>
+			<item value="Artisan"/>
+			<item value="chapter06a"/>
+			<item value="chapter05b"/>
+		</list>
+	</section>
+</section>

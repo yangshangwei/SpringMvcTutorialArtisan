@@ -1,0 +1,2 @@
+Size.product.name=Please enter a product name short(1~10)
+NotNull.product.name=Please enter a product name

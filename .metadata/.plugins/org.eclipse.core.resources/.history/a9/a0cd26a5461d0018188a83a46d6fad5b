@@ -1,0 +1,3 @@
+productname.required=(default)Please enter a product name short
+NotNull.product.name=(default)Please enter a product name
+page.productform.title=(default)New Product Form

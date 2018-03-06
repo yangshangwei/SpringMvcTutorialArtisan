@@ -1,0 +1,11 @@
+127.0.0.1 - - [04/Jan/2018:21:00:55 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [04/Jan/2018:21:00:56 +0800] "GET /chapter02a/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [04/Jan/2018:21:01:03 +0800] "GET /chapter02a/product_input.action HTTP/1.1" 200 923
+0:0:0:0:0:0:0:1 - - [04/Jan/2018:21:01:03 +0800] "GET /chapter02a/css/main.css HTTP/1.1" 200 499
+0:0:0:0:0:0:0:1 - - [04/Jan/2018:21:01:14 +0800] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [04/Jan/2018:21:01:15 +0800] "GET /chapter02a/product_input.action HTTP/1.1" 200 923
+0:0:0:0:0:0:0:1 - - [04/Jan/2018:21:01:16 +0800] "GET /chapter02a/css/main.css HTTP/1.1" 200 499
+0:0:0:0:0:0:0:1 - - [04/Jan/2018:21:01:16 +0800] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [04/Jan/2018:21:04:57 +0800] "POST /chapter02a/product_save.action HTTP/1.1" 200 359
+0:0:0:0:0:0:0:1 - - [04/Jan/2018:21:05:19 +0800] "POST /chapter02a/product_save.action HTTP/1.1" 200 358
+0:0:0:0:0:0:0:1 - - [04/Jan/2018:21:05:19 +0800] "GET /chapter02a/css/main.css HTTP/1.1" 304 -

@@ -1,0 +1,30 @@
+package com.artisan.controller;
+
+import javax.servlet.http.HttpSession;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.artisan.domain.Login;
+
+@Controller
+public class ResourceController {
+	
+	
+	@RequestMapping(value="/login",method=RequestMethod.GET)
+	public String login(@ModelAttribute Login login , HttpSession httpSession,Model model){
+		
+		model.addAttribute("login", new Login());
+		if ("artisan".equals(login.getUserName()) && "artisan123".equals(login.getPassword())) {
+			httpSession.setAttribute("loggedIn", Boolean.TRUE);
+			return "Main";
+		}else{
+			return "LoginForm";
+		}
+		
+	}
+	
+}

@@ -1,0 +1,9 @@
+package com.artisan.domain;
+
+import java.io.Serializable;
+
+public class Product implements Serializable{
+
+	private static final long serialVersionUID = -5379168879247929742L;
+
+}

@@ -1,0 +1,34 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<!DOCTYPE HTML>
+<html>
+
+<%
+String path = request.getContextPath();
+//获得本项目的地址(例如: http://localhost:8080/domain/)赋值给basePath变量 
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+// 将 "项目路径basePath" 放入pageContext中，待以后用EL表达式读出。 
+pageContext.setAttribute("basePath",basePath); 
+%>
+
+<head>
+<title>Save Product</title>
+<style type="text/css">@import url("<c:url value="/css/main.css"/>");</style>
+</head>
+<body>
+<div id="global">
+    <h4>The product has been saved.</h4>
+    <p>
+        <h5>Details:</h5>
+        Product Name: ${product.name}<br/>
+        Description: ${product.description}<br/>
+        Price: $${product.price}
+        <p>Following files are uploaded successfully.</p>
+        <ol>
+        <c:forEach items="${product.images}" var="image">
+            ${image.originalFilename}
+        </c:forEach>
+        </ol>
+    </p>
+</div>
+</body>
+</html>

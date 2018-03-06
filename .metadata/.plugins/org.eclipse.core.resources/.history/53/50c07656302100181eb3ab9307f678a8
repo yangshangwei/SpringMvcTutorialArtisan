@@ -1,0 +1,6 @@
+package com.artisan.controller;
+
+@Controller
+public class ImageController {
+
+}
